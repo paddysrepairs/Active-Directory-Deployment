@@ -1,4 +1,4 @@
-# Active DirectoryDeployment
+# Active Directory Deployment
 An overview of setting up on premise active directory using Microsoft Azure Virtual Machines
 <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
