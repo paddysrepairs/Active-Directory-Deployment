@@ -19,13 +19,17 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>High-Level Deployment and Configuration Steps Overview</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1- In Azure, create "Resource Group".
+- Step 2- In Azure, create "Virtual Network".
+- Step 3- Create your virtual machines in Azure.
+- Step 3 Part 2- First VM, create Client-1 (Windows 10 Enterprise VM).
+- Step 3 Part 3- 2nd VM, create Domain-Controller "DC-1" (Windows 2022 server).
+- Step 3 Part 4- Setup VMs in your chosen RDP client. (My case is in Linux Nobara using Remmina)
+- Step 4- Login into your domain controller "DC-1" and turn off Windows firewall for connectivity testing.
 
+ 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
