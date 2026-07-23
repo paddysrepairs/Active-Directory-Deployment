@@ -28,6 +28,18 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 - Step 3 Part 3- 2nd VM, create Domain-Controller "DC-1" (Windows 2022 server).
 - Step 3 Part 4- Setup VMs in your chosen RDP client. (My case is in Linux Nobara using Remmina)
 - Step 4- Login into your domain controller "DC-1" and turn off Windows firewall for connectivity testing.
+- Step 5- Change "Client 1's" DNS server settings to land and connect to your domain controller's private IP address (Found in Azure's settings for the VM.
+- Step 6- Set your domain controllers private IP address to be static so its not changing throughout the course of this process.
+- Step 7- In client 1. Run Powershell and see if you can ping DC-1 domain controllers private IP address succesfully.
+- Step 8- Select DNS server back in server management that we setup in previous steps.
+- Step 9- Install "Active Domain Services" on "DC-1"
+- Step 10- Restart domain controller after servers if required after install selected.
+- Step 11- Run Install and wait for it to finish.
+- Step 12- Promote "Domain Controller" in server manager.
+- Step 13- Name domain controller/ directory
+- Step 14- Set DSRM password just in case.
+- Step 15- Finish up DC promotion.
+- Step 16- Login back into your domain controller with RDP setup in Remmina.
 
  
 <h2>Deployment and Configuration Steps</h2>
