@@ -40,6 +40,10 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 - Step 14- Set DSRM password just in case.
 - Step 15- Finish up DC promotion.
 - Step 16- Login back into your domain controller with RDP setup in Remmina.
+- Step 17- In "DC-1", go to Windows Administrator Tools and select Active Directory and Users.
+- Step 17 Part 2- Right click on your domain, create new organizational group.
+- Step 17 Part 3- Make sure spelling of group "_EMPLOYEES" is correct for later.
+- 
 
  
 <h2>Deployment and Configuration Steps</h2>
