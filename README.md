@@ -13,9 +13,12 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
+- Linux Konsole
+- Remmina RDP client
 
 <h2>Operating Systems Used </h2>
 
+- Nobara Linux, KDE Plasma interface (Fork of Fedora)
 - Windows Server 2022
 - Windows 10 (21H2)
 
@@ -76,37 +79,37 @@ Logged into Microsoft Azure account. Go to resource groups and create new "Resou
 Created new vnet with in newly created resource group. Named relatively similar to the exercise and made sure to set the region to what we are going to be putting our virtual machines in.
 </p>
 <br />
-
+<H2>Step 3- Create the Virtual Machines in Azure</H2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Step_3_Create_VMS" src="https://github.com/user-attachments/assets/eae2d8d7-7a47-4d3e-9acb-d9cef0d08a90" />
 </p>
 <p>
-To be added*
-</p>
-<br />
-
-To be added*
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-To be added*
+Created the virtual machines within Azure. For this activity. Creating only 2 virtual machines. A domain controller and a single client machine.
 </p>
 <br />
-
+<h2>Client Machine Settings "Client 1"</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Step_3_Create_VMS_Client-1" src="https://github.com/user-attachments/assets/5ec39018-503c-42df-9b63-a463fe315efe" />
 </p>
+<h2>Domain Controller "DC-1" Settings</h2>
 <p>
-To be added*
+<img width="1920" height="1080" alt="Step_3_Create_VMS_DC-1" src="https://github.com/user-attachments/assets/ee6b6bb6-44de-4a51-8b1f-33997329aca6" />
 </p>
 <br />
-
+<H2>Setting up the Virtual Machines in Remmina</H2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Step_3_Setup_VMS_In_Remmina" src="https://github.com/user-attachments/assets/8d7d03a2-fb69-4f95-a4d3-27777b709c42" />
 </p>
+Next up, since I am using Linux Nobara as my main operating system for this exercise. I am using the the remote desktop client Remmina. At this stage, added the virtual machines I created in Azure to the client. Pulled all required information and inputed in for both Client-1 and DC-1.
+</p>
+<br />
+<h2>Step 4- Disable Firewall for DC-1</h2>
 <p>
-To be added*
+<img width="1920" height="1080" alt="Step_4_DC-1_Firewall_Disabled" src="https://github.com/user-attachments/assets/5b2c63ee-8b42-4e17-8c62-d43a90193a87" />
+</p>
+<img width="1920" height="1080" alt="Step_4_DC-1_Firewall_Disabled_2" src="https://github.com/user-attachments/assets/e25a1a07-bf85-4469-a1a8-2ca11893592b" />
+<p>
+For the purpose of this activity. I turned off the domain controller VM's firewall for the sake of testing and making sure connectivity will work and can be tested properly within the VM's and network.
 </p>
 <br />
 
