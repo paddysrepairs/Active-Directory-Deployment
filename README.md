@@ -112,14 +112,14 @@ Next up, since I am using Linux Nobara as my main operating system for this exer
 For the purpose of this activity. I turned off the domain controller VM's firewall for the sake of testing and making sure connectivity will work and can be tested properly within the VM's and network.
 </p>
 <br />
-
-To be added*
+<h2>Step 5- Change Client-1's DNS server to Private IP of DC-1</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Step_5_Client_1_DNS_Settings" src="https://github.com/user-attachments/assets/2a009c0f-1cda-4501-9369-4f67609aa4db" />
 </p>
 <p>
-To be added*
+<img width="1920" height="1080" alt="Step_5_Client_1_DNS_Settings_2" src="https://github.com/user-attachments/assets/27b8924d-78db-40b0-9aeb-4ecfb61d947c" />
 </p>
+Made sure to find DC-1's private IP address on Azure and set it as the DNS server on Client-1 in the network card attributes as pictured.
 <br />
 
 <p>
