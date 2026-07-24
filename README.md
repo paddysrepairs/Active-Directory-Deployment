@@ -175,3 +175,21 @@ The domain controller machine "DC-1" will more than likely need a restart after 
 Continue and finish Install of "Active Directory Services".
 </p>
 <br />
+
+<H2>Step 12- Domain Controller Promotion"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_12_DC_Promotion" src="https://github.com/user-attachments/assets/933bdbdf-daeb-44d3-bc82-037c73d16a3f" />
+</p>
+<img width="1920" height="1080" alt="Step_12_DC_Promotion_2" src="https://github.com/user-attachments/assets/6648c31c-1bb8-4fd1-b0b2-f126a689c285" />
+<p>
+Now that all the good stuff is installed that we need for active directory. It is time to promote the domain machine as the domain since we have not technically done it yet.
+</p>
+<br />
+
+<H2>Step 13- Domain Controller Naming"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_13_DC_Promotion_Name" src="https://github.com/user-attachments/assets/b295f00e-d596-444d-8ea7-de4733d4980f" />
+<p>
+In the deployment configuration settings, I created a new forest. In this case naming convention activedirec.com to keep with the excercise.
+</p>
+<br />
