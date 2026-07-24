@@ -129,3 +129,22 @@ Made sure to find DC-1's private IP address on Azure and set it as the DNS serve
 Since we want to make sure the DNS server is not interrupted and remains unchanged. Made sure to set DC-1's Private IP to static so that no matter what through this exercise that it would remain unchanged.
 </p>
 <br />
+
+<H2>Step 7- Log back into Client-1 and Ipconfig /all and ping in Powershell to Check DNS"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_6_DC-1_Static_IP" src="https://github.com/user-attachments/assets/b93866b2-68c3-45b8-a4e9-256901ed444b" />
+</p>
+<img width="1920" height="1080" alt="Step_7_Ping_DNS_Client_1" src="https://github.com/user-attachments/assets/fe1d3c3b-343a-4321-aebd-8395af330328" />
+<p>
+At this stage we want to make sure that the DNS is correct. Logged into DC-1 and double checked that the DNS changes we made are reflected in Powershell through the "ipconfig /all" command. It is a good idea to restart the domain controller and client with this updates in Azure to make sure that the setting changes are reflected in the VM's.
+</p>
+<br />
+
+<H2>Step 8- On DC-1, Finalize Setup for DNS Server"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_8_Select_Server" src="https://github.com/user-attachments/assets/3ac88d2c-0fdf-46ad-b464-43c707168140" />
+</p>
+<p>
+Need to finish the process of setting up the DNS server in our domain controller. Go into server manager and select the server we wish to use as pictured.
+</p>
+<br />
