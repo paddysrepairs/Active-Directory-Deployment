@@ -201,3 +201,11 @@ In the deployment configuration settings, I created a new forest. In this case n
 Just in case add a DSRM. Always a good option to have recovery for any system you have implented.
 </p>
 <br />
+
+<H2>Step 15- Directory Service Restore Mode Password (DSRM)</H2>
+<p>
+<img width="1920" height="1080" alt="Step_15_Promotion_Finished" src="https://github.com/user-attachments/assets/8654d01d-6160-4689-a1eb-190fa3326213" />
+<p>
+Domain controller is finished setting up! WOOT WOOT.
+</p>
+<br />
