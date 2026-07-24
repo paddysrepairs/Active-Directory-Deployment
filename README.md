@@ -121,11 +121,11 @@ For the purpose of this activity. I turned off the domain controller VM's firewa
 </p>
 Made sure to find DC-1's private IP address on Azure and set it as the DNS server on Client-1 in the network card attributes as pictured.
 <br />
-
+<H2>Step 6- Set DC-1's Private IP address to "Static"</H2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Step_6_DC-1_Static_IP" src="https://github.com/user-attachments/assets/0e6cf60d-5823-4942-ac52-1d9851d84391" />
 </p>
 <p>
-To be added*
+Since we want to make sure the DNS server is not interrupted and remains unchanged. Made sure to set DC-1's Private IP to static so that no matter what through this exercise that it would remain unchanged.
 </p>
 <br />
