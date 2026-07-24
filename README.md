@@ -40,13 +40,42 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 - Step 14- Set DSRM password just in case.
 - Step 15- Finish up DC promotion.
 - Step 16- Login back into your domain controller with RDP setup in Remmina.
-- Step 17- In "DC-1", go to Windows Administrator Tools and select Active Directory and Users.
-- Step 17 Part 2- Right click on your domain, create new organizational group.
-- Step 17 Part 3- Make sure spelling of group "_EMPLOYEES" is correct for later.
-- 
+- Step 17- In "DC-1", go to Windows Administrator Tools and select Active Directory and Users. Right click on your domain, create new organizational group. Make sure spelling of group "_EMPLOYEES" is correct for later. Create another organization group called "_ADMINS"
+- Step 18- Setup administrator account.
+- Step 19- Add Administrator we just created to the group we created in previous step.
+- Step 20- From here on we are going to use Admin Account for exercise. Can log into DC-1 with those creds at this point as well.
+- Step 21- Switch back into Client-1. Adding it to the domain we setup.
+- Step 22- Restart Client-1 when changes are accepted after adding the VM to the Domain.
+- Step 23- Logged back into DC-1 with our admin account and check that it was added to domain okay.
+- Step 24- Add it into "_CLIENT" Folder.
+- Step 25- Logged into Client-1 with our admin account.
+- Step 26- Change remote access on Client-1 so that all domain users can access the machine remotely.
+- Step 27- Pulled script to create our _EMPLOYEES directory for this exercise. Save to easy access location.
+- Step 28- Double check your active directory users and computers organization unit for spelling to match script.
+- Step 29- Run powershell script. Employee roster created successfully!
+- Step 30- Try logging in with one of the accounts we created on Client-1. Check to see if account is listed in powershell with command "whoami" if it lists the account you have successfully setup the account running it from active directory.
+- Step 31- Open group policy and set lock-out threshold for login attempts.
+- Step 32- Go back into DC-1 and reset password from account we used to test lockout policy.
+- Step 33- Log back in with account we are were using and check out the event viewer to see the activity. Overview Complete!
 
- 
 <h2>Deployment and Configuration Steps</h2>
+
+<h2>Step 1- Create Resource Group in Azure</h2>
+<p>
+<img width="1920" height="1080" alt="Step_1_Resource_Group" src="https://github.com/user-attachments/assets/3bdd91aa-8575-4a14-afeb-bb19a83524d5" />
+</p>
+<p>
+Logged into Microsoft Azure account. Go to resource groups and create new "Resource Group".
+</p>
+<br />
+<h2>Step 2- Create Virtual Network</h2>
+<p>
+<img width="1920" height="1080" alt="Step_2_Virtual_Network" src="https://github.com/user-attachments/assets/86855109-5aa4-4639-a768-19ca1504cdc6" />
+</p>
+<p>
+Created new vnet with in newly created resource group. Named relatively similar to the exercise and made sure to set the region to what we are going to be putting our virtual machines in.
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -55,6 +84,32 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 To be added*
 </p>
 <br />
+
+To be added*
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To be added*
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To be added*
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To be added*
+</p>
+<br />
+
 To be added*
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
