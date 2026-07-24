@@ -148,3 +148,12 @@ At this stage we want to make sure that the DNS is correct. Logged into DC-1 and
 Need to finish the process of setting up the DNS server in our domain controller. Go into server manager and select the server we wish to use as pictured.
 </p>
 <br />
+
+<H2>Step 9- Install Active Directory Services"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_9_Install_Active_Direc_Services" src="https://github.com/user-attachments/assets/fa048436-22eb-4a3e-af8b-8d3ddef0e191" />
+</p>
+<p>
+Continued forth and install the "Active Directory Services" required to run our ADS for this activity. Made sure it is selected as shown and clicked onto the next steps.
+</p>
+<br />
