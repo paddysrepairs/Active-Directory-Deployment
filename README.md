@@ -157,3 +157,21 @@ Need to finish the process of setting up the DNS server in our domain controller
 Continued forth and install the "Active Directory Services" required to run our ADS for this activity. Made sure it is selected as shown and clicked onto the next steps.
 </p>
 <br />
+
+<H2>Step 10- Restart DC-1 if Required"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_10_Install_Restart_If_Required" src="https://github.com/user-attachments/assets/e94ab81e-f70e-402b-919a-9f711c61172f" />
+</p>
+<p>
+The domain controller machine "DC-1" will more than likely need a restart after the active directory services install. Just accept it and proceed to the install.
+</p>
+<br />
+
+<H2>Step 11- Install Active Direc Services Final"</H2>
+<p>
+<img width="1920" height="1080" alt="Step_11_Installing" src="https://github.com/user-attachments/assets/d51d07ff-f527-4123-bb1d-9579a45055be" />
+</p>
+<p>
+Continue and finish Install of "Active Directory Services".
+</p>
+<br />
