@@ -186,10 +186,18 @@ Now that all the good stuff is installed that we need for active directory. It i
 </p>
 <br />
 
-<H2>Step 13- Domain Controller Naming"</H2>
+<H2>Step 13- Domain Controller Naming</H2>
 <p>
 <img width="1920" height="1080" alt="Step_13_DC_Promotion_Name" src="https://github.com/user-attachments/assets/b295f00e-d596-444d-8ea7-de4733d4980f" />
 <p>
 In the deployment configuration settings, I created a new forest. In this case naming convention activedirec.com to keep with the excercise.
+</p>
+<br />
+
+<H2>Step 14- Directory Service Restore Mode Password (DSRM)</H2>
+<p>
+<img width="1920" height="1080" alt="Step_14_Promotion_DSRM_Password" src="https://github.com/user-attachments/assets/f0df8490-1573-4bdc-9b8b-99133e3a81d6" />
+<p>
+Just in case add a DSRM. Always a good option to have recovery for any system you have implented.
 </p>
 <br />
