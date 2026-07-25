@@ -267,10 +267,20 @@ Add new Admin as a member of "Domain Admins".
 Logged into with our fresh new admin account to DC-1 so it is in use on going.
 <br />
 
-<h2>Add Client-1 to the Domain</h2>
+<h2>Step 21- Add Client-1 to the Domain</h2>
 <p>
 <img width="1920" height="1080" alt="Step_21_Add_Client-1_Domain" src="https://github.com/user-attachments/assets/9ce59f49-749e-473a-80a8-b389c3f71c87" />
+<p>
+<img width="1920" height="1080" alt="Step_21_Add_Client-1_Domain_2" src="https://github.com/user-attachments/assets/8d1e31e6-d6ac-4cdf-bc4b-b19ab4ca49e2" />
+<p>
+<img width="1920" height="1080" alt="Step_21_Add_Client-1_Domain_3" src="https://github.com/user-attachments/assets/9011723d-a756-4c85-8193-3fccadedae52" />
 </p>
-Follow the steps above to add Client-1 to the domain created "activedirec".
+Followed the steps above to add Client-1 to the domain created "activedirec".
 <br />
 
+<h2>Step 22- Restart VM after adding it to the Domain</h2>
+<p>
+<img width="1920" height="1080" alt="Step_22_Restart_After_Add" src="https://github.com/user-attachments/assets/7155c29a-9785-46e9-a9b1-7fb7dca44b29" />
+</p>
+After adding Client-1 to the domain. It will prompt to restart the machine. Go ahead and do so.
+<br />
