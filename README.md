@@ -224,4 +224,42 @@ Now that the domain is all set up. Be sure to set up the updates in Remmina for 
 <p>
 Now that the domain is all set up. Be sure to set up the updates in Remmina for DC-1 and Client-1 VM's.
 </p>
+<img width="1920" height="1080" alt="Step_17_Organizational_Unit" src="https://github.com/user-attachments/assets/8bb47fa5-70a1-4695-89f7-cd47bc0fe466" />
+<p>
+<img width="1920" height="1080" alt="Step_17_EMPLOYEES" src="https://github.com/user-attachments/assets/92b7f661-f872-4199-8a79-93cb49f59c23" />
+</p>
+Create organizational group in Active directory users called "_EMPLOYEES" and make sure the spelling is 100% correct as shown.
+<p>
+<img width="1920" height="1080" alt="Step_17_ADMINS" src="https://github.com/user-attachments/assets/df38a4e2-cd48-4491-9146-0464b501de31" />
+</p>
+<p>
+Create a 2nd organizational group called "_ADMINS" making sure that spelling is 100% correct.
+</p>
 <br />
+
+<h2>Step 18- Create a New Admin User</h2>
+<p>
+<img width="1920" height="1080" alt="Step_18_Create_Admin" src="https://github.com/user-attachments/assets/fcb6a719-efe1-42f2-ba78-4b026115938f" />
+</p>
+<img width="2050" height="1210" alt="Step_18_Create_Admin_Password" src="https://github.com/user-attachments/assets/ba4ef46a-b528-4972-9015-def127346d74" />
+<p>
+<img width="2050" height="1210" alt="Step_18_Create_Admin_Password" src="https://github.com/user-attachments/assets/e33e0644-3f8f-433e-9433-ed22a71d0427" />
+</p>
+<img width="2050" height="1210" alt="Step_18_Create_Admin_Prof_Sada" src="https://github.com/user-attachments/assets/9d41eace-ae1b-4299-b43b-54c934878340" />
+</p>
+Created the admin account we are going to be used on going for the rest of the exercise.
+
+<h2>Step 19- Add Admin to the Group that was Created</h2>
+<p>
+<img width="2050" height="1210" alt="Step_19_Add_Admin_Group" src="https://github.com/user-attachments/assets/4caabe48-86d7-4d9a-a490-2f231ba562eb" />
+<p>
+<img width="2050" height="1210" alt="Step_19_Add_Admin_Group_2" src="https://github.com/user-attachments/assets/b79a607f-5749-4ca5-8bba-5197456229ad" />
+<p>
+<img width="2050" height="1210" alt="Step_19_Add_Admin_Group_3" src="https://github.com/user-attachments/assets/69383ad3-4ae0-4f82-bea7-c1a65c993e78" />
+</p>
+Add new Admin as a member of "Domain Admins".
+<br />
+
+
+
+
