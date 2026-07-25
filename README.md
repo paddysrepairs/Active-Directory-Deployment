@@ -260,6 +260,17 @@ Created the admin account we are going to be used on going for the rest of the e
 Add new Admin as a member of "Domain Admins".
 <br />
 
+<h2>Step 20- Login to DC-1 as our New Admin Account</h2>
+<p>
+<img width="930" height="758" alt="Step_20_Login_Sada_Admin" src="https://github.com/user-attachments/assets/761b0a4d-d650-4177-8883-5aedaadd1112" />
+</p>
+Logged into with our fresh new admin account to DC-1 so it is in use on going.
+<br />
 
-
+<h2>Add Client-1 to the Domain</h2>
+<p>
+<img width="1920" height="1080" alt="Step_21_Add_Client-1_Domain" src="https://github.com/user-attachments/assets/9ce59f49-749e-473a-80a8-b389c3f71c87" />
+</p>
+Follow the steps above to add Client-1 to the domain created "activedirec".
+<br />
 
