@@ -202,10 +202,26 @@ Just in case add a DSRM. Always a good option to have recovery for any system yo
 </p>
 <br />
 
-<H2>Step 15- Directory Service Restore Mode Password (DSRM)</H2>
+<H2>Step 15- Directory Service Restore Mode Password(DSRM)</H2>
 <p>
 <img width="1920" height="1080" alt="Step_15_Promotion_Finished" src="https://github.com/user-attachments/assets/8654d01d-6160-4689-a1eb-190fa3326213" />
 <p>
 Domain controller is finished setting up! WOOT WOOT.
+</p>
+<br />
+
+<H2>Step 16- Switch DC-1 to domain</H2>
+<p>
+<img width="1920" height="1080" alt="Step_16_Login_with_Domain" src="https://github.com/user-attachments/assets/0fa660f9-cc8d-4899-8dde-e0c2dcc2513c" />
+<p>
+Now that the domain is all set up. Be sure to set up the updates in Remmina for DC-1 and Client-1 VM's.
+</p>
+<br />
+
+<H2>Step 17- Log back into DC-1 and Open Active Directory Users and Computers</H2>
+<p>
+<img width="1920" height="1080" alt="Step_17_Admin_Tools" src="https://github.com/user-attachments/assets/ea0d5248-92f3-4a3f-941a-7caf721c6457" />
+<p>
+Now that the domain is all set up. Be sure to set up the updates in Remmina for DC-1 and Client-1 VM's.
 </p>
 <br />
