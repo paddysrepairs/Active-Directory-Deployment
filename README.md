@@ -295,4 +295,90 @@ Go into Active Directory Users and Computers and check to make sure that the Cli
 <p>
 <img width="1920" height="1080" alt="Step_24_Add_Client_Folder" src="https://github.com/user-attachments/assets/71bf4a95-9e10-4793-a620-bd03433df8ad" />
 </p>
-To keep things organized and cleaned up further. Add Client-1 to its own folder "_CLIENTS".
+To keep things organized and cleaned up further. Added Client-1 to its own folder "_CLIENTS".
+
+<h2>Step 25, Log back into Client-1 with our Admin Account</h2>
+<p>
+<img width="1920" height="1080" alt="Step_25_Login_Client-1_Admin" src="https://github.com/user-attachments/assets/51a716f8-d527-4bef-a42c-25d4ff09d014" />
+</p>
+Logged back into our Client-1 machine with our admin account "prof_sada".
+
+<h2>Step 26, Enable Remote Desktop</h2>
+<p>
+<img width="1920" height="1080" alt="Step_26_Remote_Access_Client-1" src="https://github.com/user-attachments/assets/8e04a897-0ea6-447d-8d69-1c5be63ea019" />
+</p>
+<img width="1920" height="1080" alt="Step_26_Remote_Access_Client-1_Part2" src="https://github.com/user-attachments/assets/9789c35c-99bc-422c-a2c1-1d147a94f241" />
+</p>
+In the Client-1 machine. Enabled remote desktop access for all Users in the domain.
+
+<H2>Step 27, Creating the User Accounts for the Domain</H2>
+<p>
+<img width="1920" height="1080" alt="Step_27_Script_Create" src="https://github.com/user-attachments/assets/e558b078-bbff-48ac-81bb-9e18bc048cdd" />
+</p>
+As this point run "Powershell ISE". At this point, Grabbed the script from Github to create the user accounts in our domain. (Credit to Josh Madakor for script).
+
+<h2>Step 28, Run Script</h2>
+<p>
+<img width="1920" height="1080" alt="Step_28_Script_Run" src="https://github.com/user-attachments/assets/c74801e3-f05f-4ef4-a49f-31f2d0c6b5fd" />
+</p>
+Double check that organizational unit "_EMPLOYEES" is spelt correct and run script. It will run until it creates 10k users.
+
+<h2>Step 29, Script ran Successfully</h2>
+<p>
+<img width="1920" height="1080" alt="Step_29_Success" src="https://github.com/user-attachments/assets/3b164ef1-8d23-494e-9a9e-08e23f595366" />
+</p>
+As shown. Scipt is going about its business and creating our users accounts.
+
+<h2>Step 30, Login to Client-1 with Different Account</h2>
+<p>
+<img width="1920" height="1080" alt="Step_30_Login" src="https://github.com/user-attachments/assets/9b08e610-ecb6-4967-ab45-3052825c5652" />
+</p>
+Attempted login with one of the new accounts that was created.
+
+<h2>Step 30, Login Success</h2>
+<p>
+<img width="1920" height="1080" alt="Step_30_Login_Success" src="https://github.com/user-attachments/assets/2d9919f1-9620-4a24-8ca6-48a5f73ce7cf" />
+</p>
+Run Powershell and type command "whoami" to see if login was successful!
+
+<h2>Step 31, Group Policy</h2>
+<p>
+<img width="1920" height="1080" alt="Step_31_Group_Policy" src="https://github.com/user-attachments/assets/e291a039-0a0e-4da5-9a7f-713369fada1e" />
+</p>
+Type in search bar or right click start menu icon and find the "run.exe". Type command "gpmc.msc" to open Group Policy Manager.
+
+<h2>Step 30, Lockout Policy Setup</h2>
+<p>
+<img width="1920" height="1080" alt="Step_31_Lockout_Policy_Setup" src="https://github.com/user-attachments/assets/28179257-46f1-4e58-b8c5-cdd151c6e966" />
+</p>
+In Group Policy Management, right clicked on Default Domain Policy and setup the account lockout threshold. As shown in the steps above, followed this path to adjust the policy.
+</p>
+
+<h2>Step 31, Lockout Account</h2>
+<p>
+<img width="1920" height="1080" alt="Step_31_Lockout_Confirmed" src="https://github.com/user-attachments/assets/a87b2bae-ccf5-450b-be2d-30b2fceb7b2d" />
+</p>
+Locked out account intentionally to setup group policy for account password resets.
+</p>
+
+<h2>Step 32, Reset Password</h2>
+<p>
+<img width="1920" height="1080" alt="Step_32_Reset_Account_Password" src="https://github.com/user-attachments/assets/29aa0d49-49bd-448e-86a9-a65dd634b67d" />
+</p>
+<img width="1920" height="1080" alt="Step_32_Reset_Account_Password_2" src="https://github.com/user-attachments/assets/68f6e046-980c-46a8-8a92-c467c5f5f097" />
+<p>
+<img width="1920" height="1080" alt="Step_33_Reset_Account_Success" src="https://github.com/user-attachments/assets/7933e7d2-598f-482a-94b9-c72b36398d5c" />
+</p>
+Back on our Domain Controller VM. Went back into Active Directory Users and Computers and found the regular account I was using to log into our Client-1 VM. After password reset, tried logging in on Client-1 again with that "kor.cif" account. Password reset was successful and worked like a charm as shown.
+
+<h2>Step 33, Event Viewer</h2>
+<p>
+<img width="1920" height="1080" alt="Step_33_View_Logs_For_Fun" src="https://github.com/user-attachments/assets/cc637c30-1db1-4524-b3f0-4a208a24d1b8" />
+</p>
+As a fun add on to this activity, went into the event viewer to see the different activity I had been doing through the setup of this exercise.
+
+<h2>Step 34, Active Directory Setup Complete</h2>
+<p>
+<img width="1920" height="1080" alt="Step_34_Done" src="https://github.com/user-attachments/assets/f9ac7fea-d886-4bcf-8e7f-faf7663a6d5a" />
+</p>
+At this point the Active Directory setup I was looking to run is complete with a fully functioning domain controller and accessible client machine. Thanks for looking at my walkthrough! :)
