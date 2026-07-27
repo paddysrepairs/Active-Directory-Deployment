@@ -284,3 +284,15 @@ Followed the steps above to add Client-1 to the domain created "activedirec".
 </p>
 After adding Client-1 to the domain. It will prompt to restart the machine. Go ahead and do so.
 <br />
+
+<h2>Step 23, Check that the Client Machine has been Added!</h2>
+<p>
+<img width="1920" height="1080" alt="Step_23_Check_Client_Added" src="https://github.com/user-attachments/assets/68a3418f-71e2-45aa-b269-2d89512b00fd" />
+</p>
+Go into Active Directory Users and Computers and check to make sure that the Client-1 VM has been added to the domain all good.
+
+<h2>Step 24, Organize Further</h2>
+<p>
+<img width="1920" height="1080" alt="Step_24_Add_Client_Folder" src="https://github.com/user-attachments/assets/71bf4a95-9e10-4793-a620-bd03433df8ad" />
+</p>
+To keep things organized and cleaned up further. Add Client-1 to its own folder "_CLIENTS".
