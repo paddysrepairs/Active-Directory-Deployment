@@ -126,7 +126,7 @@ Made sure to find DC-1's private IP address on Azure and set it as the DNS serve
 <img width="1920" height="1080" alt="Step_6_DC-1_Static_IP" src="https://github.com/user-attachments/assets/0e6cf60d-5823-4942-ac52-1d9851d84391" />
 </p>
 <p>
-Since we want to make sure the DNS server is not interrupted and remains unchanged. Made sure to set DC-1's Private IP to static so that no matter what through this exercise that it would remain unchanged.
+Since we want to make sure the DNS server is not interrupted and remains unchanged. I made sure to set DC-1's Private IP to static so that no matter what through this exercise that it would remain unchanged.
 </p>
 <br />
 
@@ -190,7 +190,7 @@ Now that all the good stuff is installed that we need for active directory. It i
 <p>
 <img width="1920" height="1080" alt="Step_13_DC_Promotion_Name" src="https://github.com/user-attachments/assets/b295f00e-d596-444d-8ea7-de4733d4980f" />
 <p>
-In the deployment configuration settings, I created a new forest. In this case naming convention activedirec.com to keep with the excercise.
+In the deployment configuration settings, I created a new forest. Labeled with the naming convention activedirec.com to keep on brand with this exercise.
 </p>
 <br />
 
@@ -198,7 +198,7 @@ In the deployment configuration settings, I created a new forest. In this case n
 <p>
 <img width="1920" height="1080" alt="Step_14_Promotion_DSRM_Password" src="https://github.com/user-attachments/assets/f0df8490-1573-4bdc-9b8b-99133e3a81d6" />
 <p>
-Just in case add a DSRM. Always a good option to have recovery for any system you have implented.
+Just in case added a DSRM. Always a good option to have recovery for any system you have implemented.
 </p>
 <br />
 
@@ -206,7 +206,7 @@ Just in case add a DSRM. Always a good option to have recovery for any system yo
 <p>
 <img width="1920" height="1080" alt="Step_15_Promotion_Finished" src="https://github.com/user-attachments/assets/8654d01d-6160-4689-a1eb-190fa3326213" />
 <p>
-Domain controller is finished setting up! WOOT WOOT.
+Domain controller is finished setting up at this stage! WOOT WOOT.
 </p>
 <br />
 
