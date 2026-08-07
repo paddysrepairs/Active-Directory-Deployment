@@ -55,8 +55,8 @@ This is an outline of showcasing an implementation of on-premises Active Directo
 - Step 26- Change remote access on Client-1 so that all domain users can access the machine remotely.
 - Step 27- Pulled script to create our _EMPLOYEES directory for this exercise. Save to easy access location.
 - Step 28- Double check your active directory users and computers organization unit for spelling to match script.
-- Step 29- Run powershell script. Employee roster created successfully!
-- Step 30- Try logging in with one of the accounts we created on Client-1. Check to see if account is listed in powershell with command "whoami" if it lists the account you have successfully setup the account running it from active directory.
+- Step 29- Run Powershell script. Employee roster created successfully!
+- Step 30- Try logging in with one of the accounts we created on Client-1. Check to see if account is listed in Powershell with command "whoami" if it lists the account you have successfully setup the account running it from active directory.
 - Step 31- Open group policy and set lock-out threshold for login attempts.
 - Step 32- Go back into DC-1 and reset password from account we used to test lockout policy.
 - Step 33- Log back in with account we are were using and check out the event viewer to see the activity. Overview Complete!
@@ -76,7 +76,7 @@ Logged into Microsoft Azure account. Go to resource groups and create new "Resou
 <img width="1920" height="1080" alt="Step_2_Virtual_Network" src="https://github.com/user-attachments/assets/86855109-5aa4-4639-a768-19ca1504cdc6" />
 </p>
 <p>
-Created new vnet with in newly created resource group. Named relatively similar to the exercise and made sure to set the region to what we are going to be putting our virtual machines in.
+Created new vnet within newly created resource group. Named relatively similar to the exercise and made sure to set the region to what we are going to be putting our virtual machines in.
 </p>
 <br />
 <H2>Step 3- Create the Virtual Machines in Azure</H2>
@@ -100,7 +100,7 @@ Created the virtual machines within Azure. For this activity. Creating only 2 vi
 <p>
 <img width="1920" height="1080" alt="Step_3_Setup_VMS_In_Remmina" src="https://github.com/user-attachments/assets/8d7d03a2-fb69-4f95-a4d3-27777b709c42" />
 </p>
-Next up, since I am using Linux Nobara as my main operating system for this exercise. I am using the the remote desktop client Remmina. At this stage, added the virtual machines I created in Azure to the client. Pulled all required information and inputed in for both Client-1 and DC-1.
+Next up, since I am using Linux Nobara as my main operating system for this exercise, I am using the the remote desktop client Remmina. At this stage, added the virtual machines I created in Azure to the client. Pulled all required information and input in for both Client-1 and DC-1.
 </p>
 <br />
 <h2>Step 4- Disable Firewall for DC-1</h2>
